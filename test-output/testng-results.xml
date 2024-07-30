@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-16T10:32:32 IST" name="Suite" finished-at="2024-06-16T10:32:40 IST" duration-ms="8702">
+  <suite started-at="2024-07-30T17:39:28 IST" name="Default suite" finished-at="2024-07-30T17:40:02 IST" duration-ms="33665">
     <groups>
     </groups>
-    <test started-at="2024-06-16T10:32:32 IST" name="Test" finished-at="2024-06-16T10:32:40 IST" duration-ms="8702">
-      <class name="testngDemo.Guru99test">
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:testngDemo.Guru99test@543588e6]" started-at="2024-06-16T10:32:32 IST" name="logintest" finished-at="2024-06-16T10:32:40 IST" duration-ms="8653" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vali123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-07-30T17:39:28 IST" name="Default test" finished-at="2024-07-30T17:40:02 IST" duration-ms="33665">
+      <class name="testngDemo.GuruRegister">
+        <test-method signature="Contact_infromation()[pri:1, instance:testngDemo.GuruRegister@5890e879]" started-at="2024-07-30T17:39:28 IST" name="Contact_infromation" finished-at="2024-07-30T17:39:46 IST" duration-ms="17896" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintest -->
-      </class> <!-- testngDemo.Guru99test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Contact_infromation -->
+        <test-method signature="Mailing_Information()[pri:2, instance:testngDemo.GuruRegister@5890e879]" started-at="2024-07-30T17:39:46 IST" name="Mailing_Information" finished-at="2024-07-30T17:39:56 IST" duration-ms="9767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mailing_Information -->
+        <test-method signature="User_infromation()[pri:3, instance:testngDemo.GuruRegister@5890e879]" started-at="2024-07-30T17:39:56 IST" name="User_infromation" finished-at="2024-07-30T17:40:02 IST" duration-ms="5951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_infromation -->
+      </class> <!-- testngDemo.GuruRegister -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

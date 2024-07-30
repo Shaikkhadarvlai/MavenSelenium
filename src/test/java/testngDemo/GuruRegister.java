@@ -9,9 +9,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import helper.screenshot;
 
 
-public class GuruRegister
+
+public class GuruRegister extends screenshot
 {
 	 WebDriver driver;
   @Test(priority=1)
@@ -21,6 +23,7 @@ public class GuruRegister
 	  driver.get("https://demo.guru99.com/test/newtours/register.php");
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	  driver.manage().window().maximize();
+	
       driver.findElement(By.name("firstName")).sendKeys("khadar");
       driver.findElement(By.name("lastName")).sendKeys("vali");
       driver.findElement(By.name("phone")).sendKeys("947821995656");
@@ -48,14 +51,15 @@ public class GuruRegister
        
   }
 @Test(priority=3)
-public void User_infromation()
+public void User_infromation() throws InterruptedException
 {
 	driver.findElement(By.id("email")).sendKeys("khadar18@mail.com");
 	driver.findElement(By.xpath("//input[@name='password']")).sendKeys("vali13251");
 	driver.findElement(By.xpath("//input[@name='confirmPassword']")).sendKeys("vali13251");
+	 screenshot.getScreenshot(driver);
 	driver.findElement(By.name("submit")).click();
-	
+	Thread.sleep(2000);
+	screenshot.getScreenshot(driver);
+
 }
-
-
 }

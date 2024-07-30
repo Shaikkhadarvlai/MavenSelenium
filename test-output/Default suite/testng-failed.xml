@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mouseKeybordHAndlingActions_Robot.Scrollin_Page">
+      <class name="mouseKeybordHAndlingActions_Robot.scrolltest1">
         <methods>
-          <include name="amzonscrolltest"/>
+          <include name="ScrollPageTest"/>
         </methods>
-      </class> <!-- mouseKeybordHAndlingActions_Robot.Scrollin_Page -->
+      </class> <!-- mouseKeybordHAndlingActions_Robot.scrolltest1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

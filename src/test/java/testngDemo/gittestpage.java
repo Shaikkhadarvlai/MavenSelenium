@@ -14,7 +14,7 @@ public class gittestpage
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("selenium",Keys.ENTER);
+		driver.findElement(By.id("APjFqb")).sendKeys("selenium",Keys.ENTER);
 		
 	}
 
